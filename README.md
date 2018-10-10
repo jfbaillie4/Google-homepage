@@ -1,0 +1,1 @@
+I'm learning html & CSS by copying the Google Homepage.
