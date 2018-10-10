@@ -1,0 +1,70 @@
+#lga {
+    height: 233px;
+    margin-top: 89px;
+}
+
+#lg {
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+}
+
+#msa {
+    height: 118px;
+}
+
+.ms {
+    width: 584px;
+    height: 44px;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-a {
+    padding-top: 18px;
+    width: 571px
+}
+
+.btn-mn {
+    height: 36px;
+    line-height: 27px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.btn-mn:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+/* I think this should be a single div, although I 
+like the idea of two buttons pushing against each
+other */
+
+.btn-mn.btn-lft {
+    position: absolute, top;
+    margin-right: 100%;
+    margin-left: 4px;
+}
+
+.btn-mn.btn-rgt {
+    position: absolute, top;
+    margin-right: 4px;
+    margin-left: 100%;
+}
