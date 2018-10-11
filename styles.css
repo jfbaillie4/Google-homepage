@@ -1,21 +1,5 @@
-#lga {
-    height: 233px;
-    margin-top: 89px;
-}
-
-#lg {
-    height: 92px;
-    width: 272px;
-    padding-top: 109px;
-}
-
-#msa {
-    height: 118px;
-}
-
-.ms {
-    width: 584px;
-    height: 44px;
+body {
+    color: #222;
 }
 
 .centered {
@@ -24,12 +8,41 @@
     margin-right: auto;
 }
 
-.btn-a {
-    padding-top: 18px;
-    width: 571px
+.logo {
+    height: 92px;
+    width: 272px;
+    margin-top: 200px;
+    margin-bottom: 30px
 }
 
-.btn-mn {
+.search-box {
+    height: 44px;
+    width: 584px;
+    background: #fff;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    z-index: 3;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 16px;
+    line-height: 34px;
+}
+
+.search-box:hover, .search-box:focus {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+    outline-offset: none;
+    outline: none;
+}
+
+.search-block {
+    width: 584px;
+    height: 118px;
+    text-align: center;
+}
+
+.btn {
     height: 36px;
     line-height: 27px;
     text-align: center;
@@ -41,30 +54,13 @@
     font-family: arial,sans-serif;
     font-size: 13px;
     font-weight: bold;
-    margin: 11px 4px;
+    margin: 29px 4px 11px 4px;
     min-width: 54px;
     padding: 0 16px;
-    text-align: center;
 }
 
-.btn-mn:hover {
+.btn:hover {
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    color: #222;
 }
 
-/* I think this should be a single div, although I 
-like the idea of two buttons pushing against each
-other */
-
-.btn-mn.btn-lft {
-    position: absolute, top;
-    margin-right: 100%;
-    margin-left: 4px;
-}
-
-.btn-mn.btn-rgt {
-    position: absolute, top;
-    margin-right: 4px;
-    margin-left: 100%;
-}
