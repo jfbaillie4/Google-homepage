@@ -1,5 +1,19 @@
 body {
     color: #222;
+    font-family: arial,sans-serif;
+}
+
+.header-container {
+    position: absolute;
+    top: 15px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px;
+    width: 100%;
+}
+
+.left-margin {
+    margin-left: 15px
 }
 
 .centered {
@@ -23,7 +37,6 @@ body {
     border: none;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
     z-index: 3;
-    font-family: arial,sans-serif;
     font-size: 16px;
     font-weight: 400;
     padding: 0px 16px;
@@ -51,7 +64,6 @@ body {
     border-radius: 2px;
     color: #757575;
     cursor: default;
-    font-family: arial,sans-serif;
     font-size: 13px;
     font-weight: bold;
     margin: 29px 4px 11px 4px;
