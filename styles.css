@@ -6,6 +6,10 @@ body {
     min-width: 600px;
 }
 
+span.material-icons {
+    color: rgba(0,0,0,.55)
+}
+
 .header-container {
     position: absolute;
     top: 15px;
@@ -41,18 +45,36 @@ body {
     margin-right: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,.75);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .mi-text-align {
     vertical-align: middle;
 }
 
-.icon-background {
-    background-color: rgba(0,0,0,.75);
+.material-icons.icon-background {
+    background-color: rgba(0,0,0,.55);
     color: #fff;
     box-sizing: border-box;
     border-radius: 50%;
     height: 20px;
     width: 20px;
     text-align: center;
+}
+
+.material-icons.icon-background:hover {
+    background-color: rgb(0,0,0);
+    color: #fff
+}
+
+.material-icons:hover {
+    color: rgb(0,0,0);
 }
 
 .material-icons.icon-background {
@@ -90,6 +112,10 @@ body {
     line-height: 36px;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 .centered {
     display: block;
     margin-left: auto;
@@ -101,6 +127,12 @@ body {
     width: 272px;
     margin-top: 200px;
     margin-bottom: 30px
+}
+
+.search-block {
+    width: 584px;
+    height: 118px;
+    text-align: center;
 }
 
 .search-box {
@@ -120,12 +152,6 @@ body {
     box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
     outline-offset: none;
     outline: none;
-}
-
-.search-block {
-    width: 584px;
-    height: 118px;
-    text-align: center;
 }
 
 .btn {
@@ -149,3 +175,53 @@ body {
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
+.apps-dropdown {
+    height: 498px;
+    width: 322px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-color: rgba(0,0,0,.2);
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    z-index:100;
+    position: absolute;
+    top: 55px;
+    right: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+.expanded {
+    display: block;
+}
+
+.up-arrow {
+    width: 0; 
+    height: 0; 
+    border-left: 8.5px solid transparent;
+    border-right: 8.5px solid transparent;
+    border-bottom: 8.5px solid #fff;
+}
+
+.up-arrow-border {
+    width: 0; 
+    height: 0; 
+    border-left: 8.5px solid transparent;
+    border-right: 8.5px solid transparent;
+    border-bottom: 8.5px solid rgba(0,0,0,.2);
+}
+
+.apps-dropdown .up-arrow {
+    position: absolute;
+    right: 100px;
+    top: -8.5px;
+    z-index: 302;
+}
+
+.apps-dropdown .up-arrow-border {
+    position: absolute;
+    right: 100px;
+    top: -9.5px;
+    z-index: 301;
+}
