@@ -1,1 +1,1 @@
-I'm learning html & CSS by copying the Google Homepage.
+A little bit of HTML and CSS practice.
